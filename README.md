@@ -9,7 +9,7 @@
         * `docker build -t vue-cli .`
     * langkah kedua yang anda harus lakukan adalah buat direktori baru dengan nama vue-project
     * langkah ketiga yang anda harus lakukan adalah menjalankan image vue-cli untuk menginisialisasi projek Vue dengan menjalankan perintah :
-        * `docker run -it --rm -v ${PWD}:/app -w /app vue-project vue create .`
+        * `docker run -it --rm -v ${PWD}:/app vue-cli vue create .`
     * langkah keempat anda akan masuk kedalam proses instalasi vue, silahkan jalankan sesuai yang anda inginkan, atau lihat pada modul di tutorial
     
     
